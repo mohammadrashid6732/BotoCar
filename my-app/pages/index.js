@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div className="p-0 m-0 font-mono bg-bgwhite text-inherit">
+    <div>
       <h1>mohammad rashid</h1>
-    <a>mosa</a>
+      <a href="https://google.com"></a>
     </div>
   );
 }
