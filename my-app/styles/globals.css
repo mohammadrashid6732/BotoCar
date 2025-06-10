@@ -1,4 +1,10 @@
-html,
+@import "tailwindcss";
+
+@theme {
+  --color-bgwhite: #f8f8f7;
+}
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +19,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
+} */
