@@ -1,13 +1,13 @@
-import styles from "../components/Layout.module.css";
+import styles from "./Layout.module.css";
 
 function Layout({ children }) {
   return (
-    <div className={styles.container}>
+    <div>
       <header className={styles.header}>
         <h2>BOTOCAR</h2>
         <p>Choose an Buy your car</p>
       </header>
-      <div>{children}</div>
+      <div className={styles.container}>{children}</div>
       <footer className={styles.footer}>
         <a href="#">Mohammad Rashid </a>
         Next.js course | BOTOCAR Project &copy;
