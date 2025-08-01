@@ -1,9 +1,14 @@
-import React from 'react'
+import CartList from "../../components/templates/CarsList";
+import carsData from "../../data/carsData";
 
 const Suv = () => {
-  return (
-    <div>Suv</div>
-  )
-}
+  const suvCars = carsData.filter((car) => car.category === "suv");
 
-export default Suv
+  return (
+    <div>
+      <CartList data={suvCars} />
+    </div>
+  );
+};
+
+export default Suv;

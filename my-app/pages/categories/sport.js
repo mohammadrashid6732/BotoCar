@@ -1,9 +1,14 @@
-import React from 'react'
+import CartList from "../../components/templates/CarsList";
+import carsData from "../../data/carsData";
 
 const Sport = () => {
-  return (
-    <div>Sport</div>
-  )
-}
+  const sportCars = carsData.filter((car) => car.category === "sport");
 
-export default Sport
+  return (
+    <div>
+      <CartList data={sportCars} />
+    </div>
+  );
+};
+
+export default Sport;
